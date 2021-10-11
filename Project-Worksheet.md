@@ -33,7 +33,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 I feel like many of these layouts will be similar; I'm referencing the "Eloise Ress Barrow" wireframe and I think it'll be a popular design due to it's functionality and simplicity. There will be a navigation bar, an area for a quick introduction into our brand, a reference area to display our completed projects, and an area to share various contact methods. The idea with the mobile version, as with all versions really, is that you want this to be convenient for the person browsing. In a mobile setting, you'll want a seamless scrolling layout. Ideally, I'll be able to utilize the carousel function to display all my projects.
 
-- [Desktop] // IN PROGRESS //
+- [Desktop](https://res.cloudinary.com/projaymmer/image/upload/v1633907707/Desktop-Portfolio-Wireframe_gwjasl.png)
 
 Wireframing Resources:
 
