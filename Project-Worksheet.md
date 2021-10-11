@@ -42,7 +42,7 @@ Wireframing Resources:
 
 ## Time/Priority Matrix
 
-[Link](https://res.cloudinary.com/jkeohan/image/upload/a_270/v1591621734/project1_matrix_ocy5gc_h1kg0m.jpg)
+[Link](https://res.cloudinary.com/projaymmer/image/upload/v1633976311/Portfolio-Priority-Matrix-Scatter_nficea.png)
 
 Include a full list of features that have been prioritized based on the `Time and Priority` Matix. This involves drawing a a square. In the middle of the square, on the x axis draw a line. The most left part of the line should start with 0hrs and the end of the line should include 2hrs. This line will be used to estimate how much time any one feature will take to complete.
 
@@ -56,16 +56,7 @@ Once complete tally up the time and determine how long the project will take to 
 
 The functionality will then be divided into two separate lists: MPV and PostMVP. Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.
 
-#### MVP (examples)
-
-- Pull data using google json api
-- Render data on page
-- Allow user to choose favorites
-- Save their choices in firebase
-
-#### PostMVP
-
-- Anything else that is not MVP
+[Link](https://res.cloudinary.com/projaymmer/image/upload/v1633976312/Portfolio-Priority-Matrix-Data_vu5pql.png)
 
 ## Functional Components
 
@@ -75,26 +66,26 @@ Time frames are also key in the development cycle. You have limited time to code
 
 #### MVP
 
-| Component               | Priority | Estimated Time | Actual Time |
-| ----------------------- | :------: | :------------: | :---------: | --- |
-| Hamburger               |    H     |      1hr       |     hr      |
-| Project Previews        |    H     |      3hr       |     hr      |
-| Regular Nav             |    H     |      1hr       |     hr      |
-| Adding Form             |    H     |     1.5hr      |     hr      |
-| Other sections and flex |    M     |      3hr       |     hr      |
-| Working with API        |    H     |      3hrs      |     hr      |
-| Responsive              |    H     |      3hr       |     hr      | hr  |
-| Social Media Icons      |    L     |      1hr       |     hr      |
-| Total                   |    H     |    15.5hrs     |     hrs     |
+| Component | Priority | Estimated Time | Actual Time |
+| --------- | :------: | :------------: | :---------: |
+
+| Projects-IMG-Links/
+| Placeholders | H | 3hr | hr |
+| Header/Navigation-Bar/
+| Hamburger-Menu | H | 3hr | hr |
+| About-Me/Developer-
+| Skills | H | 1hr | hr |
+| Contact-Section-IMGs-
+| Hyperlinks | H | 2hr | hr |
+| Media-Query-Conversions | M | 3hr | hr |
+| Total | H | 12hrs | hrs |
 
 #### PostMVP
 
 | Component             | Priority | Estimated Time | Actual Time |
 | --------------------- | :------: | :------------: | :---------: | --- |
-| Project Hover         |    L     |      3hr       |     -hr     | hr  |
-| Banner letters wiggle |    L     |      1hr       |     hr      |
-| Interactive Banner    |    M     |      4hr       |     hr      |
-| Materialize           |    H     |      4hr       |     -hr     | hr  |
-| Bootstrap             |    H     |      4hr       |     hr      |
-| Make own icon         |    L     |      4hr       |     hr      |
-| Total                 |    H     |     20hrs      |     hrs     |
+| Project-Carousel      |    H     |      3hr       |     -hr     | hr  |
+| Stylize-General-Theme |    M     |      3hr       |     hr      |
+| Stylize-About-Me      |    M     |      2hr       |     hr      |
+| Make-Own-Icon         |    L     |      4hr       |     hr      |
+| Total                 |    H     |     12hrs      |     hrs     |
