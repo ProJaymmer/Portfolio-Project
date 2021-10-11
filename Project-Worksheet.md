@@ -66,19 +66,16 @@ Time frames are also key in the development cycle. You have limited time to code
 
 #### MVP
 
-| Component | Priority | Estimated Time | Actual Time |
-| --------- | :------: | :------------: | :---------: |
-
-| Projects-IMG-Links/
-| Placeholders | H | 3hr | hr |
-| Header/Navigation-Bar/
-| Hamburger-Menu | H | 3hr | hr |
-| About-Me/Developer-
-| Skills | H | 1hr | hr |
-| Contact-Section-IMGs-
-| Hyperlinks | H | 2hr | hr |
-| Media-Query-Conversions | M | 3hr | hr |
-| Total | H | 12hrs | hrs |
+| Component               | Priority | Estimated Time | Actual Time |
+| ----------------------- | :------: | :------------: | :---------: | --- |
+| Projects-IMG-Links/     |    H     |      3hr       |     hr      |
+| Placeholders            |          |                |             |
+| Header/Navigation-Bar/  |    H     |      3hr       |     hr      |     |
+| Hamburger-Menu          |          |                |             |
+| About-Me/Developer-     |    H     |      1hr       |     hr      |
+| Skills                  |          |                |             |     |
+| Contact-Section-IMGs-   |    H     |      2hr       |     hr      |
+| Media-Query-Conversions |    H     |      3hr       |     hr      |     |
 
 #### PostMVP
 
