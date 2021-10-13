@@ -1,0 +1,105 @@
+.body {
+	background-color: black;
+	color: silver;
+}
+.topNav {
+	display: grid;
+	grid-template-columns: 3fr 3fr 3fr;
+	padding: 0px 0px 15px 0px;
+	font-size: 15px;
+	position: relative;
+	font-size: 25px;
+	top: 15px;
+	border-bottom: floralwhite;
+	border-bottom-style: ridge;
+}
+.brand {
+	text-decoration: none;
+	justify-self: center;
+	font-family: 'Architects Daughter', cursive;
+	color: silver;
+	/* position: absolute; */
+	left: 40px;
+}
+.menuIcon {
+	grid-column: 3;
+	position: absolute;
+	right: 40px;
+	color: silver;
+}
+@media screen and (max-width: 768px) {
+	#myLinks {
+		grid-column: 2;
+		display: grid;
+		display: none;
+		font-size: 20px;
+		position: relative;
+		margin: 0px;
+		padding: 0px;
+	}
+}
+#myLinks a:hover {
+	text-transform: uppercase;
+	background-color: #ddd;
+	color: black;
+}
+.navLink {
+	display: grid;
+	justify-content: center;
+	text-decoration: none;
+	font-family: 'Architects Daughter', cursive;
+	color: silver;
+}
+main {
+	height: 735px;
+	display: grid;
+	grid-template-rows: 4fr 4fr 4fr 1fr;
+	text-align: center;
+	padding: 0px;
+	margin: 20px 0px 0px 0px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 25px;
+	overflow: hidden;
+	align-items: center;
+}
+header {
+	border-top: honeydew;
+	border-bottom: floralwhite;
+	border-bottom-style: ridge;
+}
+
+/*TABLET & DESKTOP RESPONSE*/
+@media screen and (min-width: 768px) {
+	.topNav {
+		display: grid;
+		grid-template-columns: 1fr 4fr;
+		position: relative;
+		padding: 0px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.brand {
+		grid-column: 1;
+		font-size: 50px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.menuIcon {
+		display: none;
+	}
+}
+@media screen and (min-width: 768px) {
+	div #myLinks {
+		grid-column: 2;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		position: relative;
+		top: 15px;
+	}
+}
+@media screen and (min-width: 768px) {
+	main {
+		margin: 100px 0px 0px 0px;
+	}
+}
+/*END TABLET & DESKTOP RESPONSE*/
