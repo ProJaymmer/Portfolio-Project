@@ -49,6 +49,8 @@
 	text-decoration: none;
 	font-family: 'Architects Daughter', cursive;
 	color: silver;
+	padding: 0px;
+	margin: 0px;
 }
 main {
 	height: 735px;
@@ -59,13 +61,32 @@ main {
 	margin: 20px 0px 0px 0px;
 	font-family: 'Architects Daughter', cursive;
 	font-size: 25px;
-	overflow: hidden;
+	overflow: auto;
 	align-items: center;
 }
+img {
+	display: block;
+	margin: auto;
+	width: 250px;
+}
+.fashion {
+	padding: 0px 0px 6px 0px;
+}
 header {
-	border-top: honeydew;
 	border-bottom: floralwhite;
 	border-bottom-style: ridge;
+	padding: 70px 0px 70px 0px;
+	margin: 0px;
+}
+.projects {
+	border-bottom: floralwhite;
+	border-bottom-style: ridge;
+	/* padding: 70px 0px 110px 0px; */
+}
+.contact {
+	border-bottom: floralwhite;
+	border-bottom-style: ridge;
+	padding: 80px 0px 110px 0px;
 }
 
 /*TABLET & DESKTOP RESPONSE*/
