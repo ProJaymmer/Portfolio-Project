@@ -1,6 +1,6 @@
 .body {
-	background-color: black;
-	color: silver;
+	background-color: white;
+	color: black;
 }
 .topNav {
 	display: grid;
@@ -10,14 +10,14 @@
 	position: relative;
 	font-size: 25px;
 	top: 15px;
-	border-bottom: floralwhite;
+	border-bottom: dimgray;
 	border-bottom-style: ridge;
 }
 .brand {
 	text-decoration: none;
 	justify-self: center;
 	font-family: 'Architects Daughter', cursive;
-	color: silver;
+	color: black;
 	/* position: absolute; */
 	left: 40px;
 }
@@ -25,7 +25,7 @@
 	grid-column: 3;
 	position: absolute;
 	right: 40px;
-	color: silver;
+	color: black;
 }
 @media screen and (max-width: 768px) {
 	#myLinks {
@@ -48,7 +48,7 @@
 	justify-content: center;
 	text-decoration: none;
 	font-family: 'Architects Daughter', cursive;
-	color: silver;
+	color: black;
 	padding: 0px;
 	margin: 0px;
 }
@@ -64,31 +64,60 @@ main {
 	overflow: auto;
 	align-items: center;
 }
-img {
-	display: block;
-	margin: auto;
-	width: 250px;
-}
-.fashion {
-	padding: 0px 0px 6px 0px;
-}
 header {
-	border-bottom: floralwhite;
+	border-bottom: dimgray;
 	border-bottom-style: ridge;
 	padding: 70px 0px 70px 0px;
 	margin: 0px;
 }
 .projects {
-	border-bottom: floralwhite;
+	display: grid;
+	grid-template-rows: 1fr 5fr;
+	border-bottom: dimgray;
 	border-bottom-style: ridge;
-	/* padding: 70px 0px 110px 0px; */
+	height: 225px;
+	/* padding: 0px 0px 6px 0px; */
+}
+#projectsText {
+	position: relative;
+	top: 10px;
+}
+.carousel {
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+img {
+	display: block;
+	margin: auto;
+	height: 180px;
 }
 .contact {
-	border-bottom: floralwhite;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 3fr;
+	position: relative;
+	height: 215px;
+	border-bottom: dimgray;
 	border-bottom-style: ridge;
-	padding: 80px 0px 110px 0px;
 }
+#contactText {
+	position: relative;
+	top: 10px;
+	grid-column: 1/4;
+	grid-row: 1;
+}
+.facebookIcon {
+	position: relative;
 
+	display: grid;
+	grid-column: 1;
+	grid-row: 2;
+}
+img.facebook {
+	width: 95px;
+	height: 95px;
+}
 /*TABLET & DESKTOP RESPONSE*/
 @media screen and (min-width: 768px) {
 	.topNav {
