@@ -12,27 +12,28 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 | Day   | Deliverable                                  | Status     |
 | ----- | -------------------------------------------- | ---------- |
-| Day 1 | Project Description                          | Incomplete |
-| Day 1 | Wireframes / Priority Matrix / Timeline      | Incomplete |
-| Day 3 | Core Application Structure (HTML, CSS, etc.) | Incomplete |
+| Day 1 | Project Description, Wireframes, Priority    | Incomplete |
+| DAY 1 | Matrix, Timeline                             |
+| Day 2 | Core Application Structure (HTML, CSS, etc.) | Incomplete |
 | Day 4 | MVP & Bug Fixes                              | Incomplete |
 | Day 5 | Final Touches                                | Incomplete |
 | Day 6 | Present                                      | Incomplete |
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+<!-- Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality. -->
 
-## Google Sheet
-
-Include link to your google sheet here. Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0)
+The completion of this project will demonstrate my command over HTML, CSS, and JavaScript by showcasing a website that will host subsequent projects. Ideally, you will find a sensible format with a professional presentation, functioning hyperlinks, and interactivity that one may expect from a junior developer.
 
 ## Wireframes
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.
 
-- [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg)
+- [Mobile](https://res.cloudinary.com/projaymmer/image/upload/v1633735607/Mobile-First-Wireframe_d3u9hb.png)
+
+I feel like many of these layouts will be similar; I'm referencing the "Eloise Ress Barrow" wireframe and I think it'll be a popular design due to it's functionality and simplicity. There will be a navigation bar, an area for a quick introduction into our brand, a reference area to display our completed projects, and an area to share various contact methods. The idea with the mobile version, as with all versions really, is that you want this to be convenient for the person browsing. In a mobile setting, you'll want a seamless scrolling layout. Ideally, I'll be able to utilize the carousel function to display all my projects.
+
+- [Desktop](https://res.cloudinary.com/projaymmer/image/upload/v1633907707/Desktop-Portfolio-Wireframe_gwjasl.png)
 
 Wireframing Resources:
 
@@ -41,7 +42,7 @@ Wireframing Resources:
 
 ## Time/Priority Matrix
 
-[Link](https://res.cloudinary.com/jkeohan/image/upload/a_270/v1591621734/project1_matrix_ocy5gc_h1kg0m.jpg)
+[Link](https://res.cloudinary.com/projaymmer/image/upload/v1633976311/Portfolio-Priority-Matrix-Scatter_nficea.png)
 
 Include a full list of features that have been prioritized based on the `Time and Priority` Matix. This involves drawing a a square. In the middle of the square, on the x axis draw a line. The most left part of the line should start with 0hrs and the end of the line should include 2hrs. This line will be used to estimate how much time any one feature will take to complete.
 
@@ -55,16 +56,7 @@ Once complete tally up the time and determine how long the project will take to 
 
 The functionality will then be divided into two separate lists: MPV and PostMVP. Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.
 
-#### MVP (examples)
-
-- Pull data using google json api
-- Render data on page
-- Allow user to choose favorites
-- Save their choices in firebase
-
-#### PostMVP
-
-- Anything else that is not MVP
+[Link](https://res.cloudinary.com/projaymmer/image/upload/v1633976312/Portfolio-Priority-Matrix-Data_vu5pql.png)
 
 ## Functional Components
 
@@ -76,27 +68,24 @@ Time frames are also key in the development cycle. You have limited time to code
 
 | Component               | Priority | Estimated Time | Actual Time |
 | ----------------------- | :------: | :------------: | :---------: | --- |
-| Hamburger               |    H     |      1hr       |     hr      |
-| Project Previews        |    H     |      3hr       |     hr      |
-| Regular Nav             |    H     |      1hr       |     hr      |
-| Adding Form             |    H     |     1.5hr      |     hr      |
-| Other sections and flex |    M     |      3hr       |     hr      |
-| Working with API        |    H     |      3hrs      |     hr      |
-| Responsive              |    H     |      3hr       |     hr      | hr  |
-| Social Media Icons      |    L     |      1hr       |     hr      |
-| Total                   |    H     |    15.5hrs     |     hrs     |
+| Projects-IMG-Links/     |    H     |      3hr       |     hr      |
+| Placeholders            |          |                |             |
+| Header/Navigation-Bar/  |    H     |      3hr       |     hr      |     |
+| Hamburger-Menu          |          |                |             |
+| About-Me/Developer-     |    H     |      1hr       |     hr      |
+| Skills                  |          |                |             |     |
+| Contact-Section-IMGs-   |    H     |      2hr       |     hr      |
+| Media-Query-Conversions |    H     |      3hr       |     hr      |     |
 
 #### PostMVP
 
 | Component             | Priority | Estimated Time | Actual Time |
 | --------------------- | :------: | :------------: | :---------: | --- |
-| Project Hover         |    L     |      3hr       |     -hr     | hr  |
-| Banner letters wiggle |    L     |      1hr       |     hr      |
-| Interactive Banner    |    M     |      4hr       |     hr      |
-| Materialize           |    H     |      4hr       |     -hr     | hr  |
-| Bootstrap             |    H     |      4hr       |     hr      |
-| Make own icon         |    L     |      4hr       |     hr      |
-| Total                 |    H     |     20hrs      |     hrs     |
+| Project-Carousel      |    H     |      3hr       |     -hr     | hr  |
+| Stylize-General-Theme |    M     |      3hr       |     hr      |
+| Stylize-About-Me      |    M     |      2hr       |     hr      |
+| Make-Own-Icon         |    L     |      4hr       |     hr      |
+| Total                 |    H     |     12hrs      |     hrs     |
 
 ## Additional Libraries
 

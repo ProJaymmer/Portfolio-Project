@@ -40,8 +40,8 @@
 }
 #myLinks a:hover {
 	text-transform: uppercase;
-	background-color: #ddd;
-	color: black;
+	background-color: black;
+	color: white;
 }
 .navLink {
 	display: grid;
@@ -109,7 +109,6 @@ img {
 }
 .facebookIcon {
 	position: relative;
-
 	display: grid;
 	grid-column: 1;
 	grid-row: 2;
