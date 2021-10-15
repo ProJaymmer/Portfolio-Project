@@ -12,11 +12,11 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 | Day   | Deliverable                                  | Status     |
 | ----- | -------------------------------------------- | ---------- |
-| Day 1 | Project Description, Wireframes, Priority    | Incomplete |
+| Day 1 | Project Description, Wireframes, Priority    | COMPLETE   |
 | DAY 1 | Matrix, Timeline                             |
-| Day 2 | Core Application Structure (HTML, CSS, etc.) | Incomplete |
-| Day 4 | MVP & Bug Fixes                              | Incomplete |
-| Day 5 | Final Touches                                | Incomplete |
+| Day 2 | Core Application Structure (HTML, CSS, etc.) | COMPLETE   |
+| Day 4 | MVP & Bug Fixes                              | COMPLETE   |
+| Day 5 | Final Touches                                | COMPLETE   |
 | Day 6 | Present                                      | Incomplete |
 
 ## Project Description
@@ -68,21 +68,21 @@ Time frames are also key in the development cycle. You have limited time to code
 
 | Component               | Priority | Estimated Time | Actual Time |
 | ----------------------- | :------: | :------------: | :---------: | --- |
-| Projects-IMG-Links/     |    H     |      3hr       |     hr      |
-| Placeholders            |          |                |             |
-| Header/Navigation-Bar/  |    H     |      3hr       |     hr      |     |
-| Hamburger-Menu          |          |                |             |
-| About-Me/Developer-     |    H     |      1hr       |     hr      |
-| Skills                  |          |                |             |     |
-| Contact-Section-IMGs-   |    H     |      2hr       |     hr      |
-| Media-Query-Conversions |    H     |      3hr       |     hr      |     |
+| Projects-IMG-Links/     |    H     |      3hr       |     2hr     |
+| Placeholders            |    -     |       -        |      -      |
+| Header/Navigation-Bar/  |    H     |      3hr       |     5hr     |     |
+| Hamburger-Menu          |    -     |       -        |      -      |
+| About-Me/Developer-     |    H     |      1hr       |     1hr     |
+| Skills                  |    -     |       -        |      -      |     |
+| Contact-Section-IMGs-   |    H     |      2hr       |     3hr     |
+| Media-Query-Conversions |    H     |      3hr       |     4hr     |     |
 
 #### PostMVP
 
 | Component             | Priority | Estimated Time | Actual Time |
 | --------------------- | :------: | :------------: | :---------: | --- |
-| Project-Carousel      |    H     |      3hr       |     -hr     | hr  |
-| Stylize-General-Theme |    M     |      3hr       |     hr      |
-| Stylize-About-Me      |    M     |      2hr       |     hr      |
-| Make-Own-Icon         |    L     |      4hr       |     hr      |
-| Total                 |    H     |     12hrs      |     hrs     |
+| Project-Carousel      |    H     |      3hr       |     3hr     | hr  |
+| Stylize-General-Theme |    M     |      3hr       | Incomplete  |
+| Stylize-About-Me      |    M     |      2hr       | Incomplete  |
+| Make-Own-Icon         |    L     |      4hr       | Incomplete  |
+| Total                 |    H     |     12hrs      | Incomplete  |

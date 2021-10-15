@@ -146,10 +146,10 @@ img.linkedIn {
 	height: 95px;
 }
 footer {
-	overflow: hidden;
-	font-size: 15px;
-	height: 40px;
+	margin-top: auto;
+	margin-bottom: auto;
 }
+
 
 /*TABLET & DESKTOP RESPONSE*/
 @media screen and (min-width: 768px) {
