@@ -97,7 +97,7 @@ img {
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 3fr;
 	position: relative;
-	height: 215px;
+	height: 175px;
 	border-bottom: dimgray;
 	border-bottom-style: ridge;
 }
@@ -112,11 +112,35 @@ img {
 	display: grid;
 	grid-column: 1;
 	grid-row: 2;
+	align-self: center;
 }
 img.facebook {
 	width: 95px;
 	height: 95px;
 }
+.emailIcon {
+	position: relative;
+	display: grid;
+	grid-column: 2;
+	grid-row: 2;
+	align-self: center;
+}
+img.email {
+	width: 95px;
+	height: 95px;
+}
+.linkedInIcon {
+	position: relative;
+	display: grid;
+	grid-column: 3;
+	grid-row: 2;
+	align-self: center;
+}
+img.linkedIn {
+	width: 95px;
+	height: 95px;
+}
+
 /*TABLET & DESKTOP RESPONSE*/
 @media screen and (min-width: 768px) {
 	.topNav {
