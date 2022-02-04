@@ -89,6 +89,10 @@ p {
 	position: relative;
 	top: 10px;
 }
+.projectLinks {
+	margin: 0px;
+	padding: 0px 40px 0px 0px;
+}
 .carousel {
 	width: 350px;
 	margin-left: auto;

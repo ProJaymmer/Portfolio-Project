@@ -10,7 +10,7 @@ function toggleMenu() {
 function alertProject1() {
 	console.log('Project 1 Alert Engaged');
 	alert(
-		'Project Name: Dog Walker App\nProject Status: Completed\nProject Details: Sign up as a dog walker or dog owner and match with a walker/owner\nTools: Mongo, Mongoose, MongoDB, Node, React, JSX, & Express'
+		'Project Name: Dog Walker App\nProject Status: Completed\nProject Details: Team Project. Sign up as a dog walker or dog owner and match with a walker/owner\nTools: Mongo, Mongoose, MongoDB, Node, React, JSX, & Express'
 	);
 }
 
