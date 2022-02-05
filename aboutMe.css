@@ -1,0 +1,54 @@
+.body {
+	background-color: white;
+	color: black;
+}
+.topNav {
+	display: grid;
+	grid-template-columns: 3fr 3fr 3fr;
+	padding: 0px 0px 15px 0px;
+	font-size: 15px;
+	position: relative;
+	font-size: 25px;
+	top: 15px;
+	border-bottom: dimgray;
+	border-bottom-style: ridge;
+}
+.brand {
+	text-decoration: none;
+	justify-self: center;
+	font-family: 'Architects Daughter', cursive;
+	color: black;
+	/* position: absolute; */
+	left: 40px;
+}
+.menuIcon {
+	grid-column: 3;
+	position: absolute;
+	right: 40px;
+	color: black;
+}
+@media screen and (max-width: 768px) {
+	#myLinks {
+		grid-column: 2;
+		display: grid;
+		display: none;
+		font-size: 20px;
+		position: relative;
+		margin: 0px;
+		padding: 0px;
+	}
+}
+#myLinks a:hover {
+	text-transform: uppercase;
+	background-color: black;
+	color: white;
+}
+.navLink {
+	display: grid;
+	justify-content: center;
+	text-decoration: none;
+	font-family: 'Architects Daughter', cursive;
+	color: black;
+	padding: 0px;
+	margin: 0px;
+}
