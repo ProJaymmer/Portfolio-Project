@@ -66,18 +66,15 @@ main {
 	/* align-items: center; */
 }
 header {
-	display: grid;
-	grid-template-rows: auto;
-	/* height: 320px; */
 	border-bottom: dimgray;
 	border-bottom-style: ridge;
-	/* padding: 0px 0px 0px 0px; */
 	margin: 0px;
 	overflow: auto;
 }
 .portrait {
 	width: 40%;
 	height: 50%;
+	max-width: 250px;
 	border-radius: 20%;
 	padding: 0px;
 	margin-bottom: 20px;
