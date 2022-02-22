@@ -1,5 +1,6 @@
 .body {
 	background-color: white;
+	font-family: 'Architects Daughter', cursive;
 	color: black;
 }
 .topNav {
@@ -70,6 +71,9 @@ header {
 	border-bottom-style: ridge;
 	margin: 0px;
 	overflow: auto;
+}
+.titleJay {
+	color: black;
 }
 .portrait {
 	height: 100%;

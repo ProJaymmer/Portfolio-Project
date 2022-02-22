@@ -27,3 +27,7 @@ function alertPending1() {
 		'Project Name: Wizarding Schools Review Page\nProject Status: Pending\nProject Details: Sign up as a school Headmaster to upload school information and respond to reviews, or sign up as a student to leave a school review.\nTools: Node, React, JSX, & Express, etc (more languages as project progresses).'
 	);
 }
+
+// START CAROUSEL CODE //
+
+// END CAROUSEL CODE //
