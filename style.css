@@ -53,20 +53,19 @@
 	padding: 0px;
 	margin: 0px;
 }
-main {
-	height: 735px;
+.main {
+	height: 800px;
 	display: grid;
-	grid-template-rows: 4fr 4fr 4fr 1fr;
+	grid-template-rows: 6fr 4fr 4fr 1fr;
 	text-align: center;
 	padding: 0px;
 	margin: 20px 0px 0px 0px;
 	font-family: 'Architects Daughter', cursive;
 	font-size: 25px;
 	overflow: auto;
-	/* align-items: center; */
 }
 header {
-	height: 220px;
+	height: auto;
 	border-bottom: dimgray;
 	border-bottom-style: ridge;
 	margin: 0px;
@@ -93,25 +92,26 @@ p {
 	grid-template-rows: 1fr 5fr;
 	border-bottom: dimgray;
 	border-bottom-style: ridge;
-	height: 300px;
-	/* padding: 0px 0px 6px 0px; */
+	height: auto;
 }
 #projectsText {
 	position: relative;
-	top: 10px;
+	padding: 5px;
+	text-decoration: underline;
 }
 .projectLinks {
 	margin: 0px;
 	padding: 0px 40px 0px 0px;
 }
 .carousel {
-	width: 350px;
+	width: auto;
 	margin-left: auto;
 	margin-right: auto;
 }
 .d-block {
 	display: block;
 	margin: auto;
+	width: fit-content;
 	height: 230px;
 }
 .contact {
