@@ -61,7 +61,6 @@
 	padding: 0px;
 	margin: 20px 0px 0px 0px;
 	font-family: 'Architects Daughter', cursive;
-	font-size: 25px;
 	overflow: auto;
 }
 header {
@@ -84,7 +83,7 @@ header {
 	margin-right: auto;
 }
 p {
-	font-size: 15px;
+	font-size: 20px;
 	padding: 0px 10px 0px 10px;
 }
 .projects {
@@ -107,6 +106,7 @@ p {
 	padding: 15px;
 	display: inline-block;
 	color: black;
+	font-size: 25px;
 }
 .carousel {
 	width: 370px;
@@ -168,9 +168,10 @@ img.linkedIn {
 	width: 95px;
 	height: 95px;
 }
-.footer {
+#footer {
 	color: black;
 	width: 375px;
+	padding: 15px;
 	font-size: 20px;
 }
 
@@ -179,27 +180,19 @@ img.linkedIn {
 	main {
 		margin: 20px 0px 0px 0px;
 	}
-}
-@media screen and (min-width: 768px) {
 	.topNav {
 		display: grid;
 		grid-template-columns: 1fr 4fr;
 		position: relative;
 		padding: 0px;
 	}
-}
-@media screen and (min-width: 768px) {
 	.brand {
 		grid-column: 1;
 		font-size: 50px;
 	}
-}
-@media screen and (min-width: 768px) {
 	.menuIcon {
 		display: none;
 	}
-}
-@media screen and (min-width: 768px) {
 	div #myLinks {
 		grid-column: 2;
 		display: grid;
@@ -207,9 +200,7 @@ img.linkedIn {
 		position: relative;
 		top: 15px;
 	}
-}
-@media screen and (min-width: 768px) {
-	main {
+	.main {
 		height: 1000px;
 		display: grid;
 		grid-template-rows: 4fr 4fr 4fr 1fr;
@@ -217,9 +208,8 @@ img.linkedIn {
 		padding: 0px;
 		margin: 20px 0px 0px 0px;
 		font-family: 'Architects Daughter', cursive;
-		font-size: 25px;
+		font-size: 35px;
 		overflow: auto;
-		/* align-items: center; */
 	}
 	header {
 		height: 450px;
@@ -228,14 +218,20 @@ img.linkedIn {
 		margin: 0px;
 		overflow: auto;
 	}
-}
-@media screen and (min-width: 768px) {
 	p {
-		font-size: 25px;
+		font-size: 30px;
 		padding: 0px 20px 0px 20px;
 		max-width: 1500px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	#projectsText, #contactText, .projectLinks {
+		font-size: 30px;
+	}
+	#footer {
+		width: 750px;
+		font-size: 25px;
+		
 	}
 }
 /*END TABLET & DESKTOP RESPONSE*/

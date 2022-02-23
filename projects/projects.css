@@ -71,7 +71,7 @@ main {
 	display: block;
 	margin: auto;
 	height: 230px;
-	width: fit-content;
+	width: auto;
 }
 .projectLinks {
 	margin: 0px;
