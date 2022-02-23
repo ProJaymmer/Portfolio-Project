@@ -88,23 +88,17 @@ main {
 		position: relative;
 		padding: 0px;
 	}
-}
-@media screen and (min-width: 768px) {
 	.brand {
 		grid-column: 1;
 		font-size: 50px;
 	}
-}
-@media screen and (min-width: 768px) {
 	.menuIcon {
 		display: none;
 	}
-}
-@media screen and (min-width: 768px) {
 	div #myLinks {
 		grid-column: 2;
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 		position: relative;
 		top: 15px;
 	}

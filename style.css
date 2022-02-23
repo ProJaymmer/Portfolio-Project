@@ -19,7 +19,6 @@
 	justify-self: center;
 	font-family: 'Architects Daughter', cursive;
 	color: black;
-	left: 40px;
 }
 .menuIcon {
 	grid-column: 3;
@@ -195,7 +194,7 @@ img.linkedIn {
 	div #myLinks {
 		grid-column: 2;
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 		position: relative;
 		top: 15px;
 	}
