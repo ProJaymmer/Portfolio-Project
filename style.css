@@ -1,5 +1,4 @@
 .body {
-	width: 375px;
 	background-color: white;
 	font-family: 'Architects Daughter', cursive;
 	color: black;
@@ -103,9 +102,6 @@ p {
 	padding: 10px;
 	text-decoration: underline;
 }
-.carousel-item {
-	text-align: center;
-}
 .projectLinks {
 	margin: 0px;
 	padding: 15px;
@@ -120,7 +116,7 @@ p {
 .d-block {
 	display: block;
 	margin: auto;
-	width: fit-content;
+	width: auto;
 	height: 230px;
 }
 .contact {
