@@ -3,7 +3,6 @@
 	color: black;
 }
 .topNav {
-	grid-row: 1;
 	display: grid;
 	grid-template-columns: 3fr 3fr 3fr;
 	padding: 0px 0px 15px 0px;
@@ -54,16 +53,14 @@
 	margin: 0px;
 }
 .main {
-	grid-row: 2;
 	display: grid;
-	grid-template-rows: 5fr 1/1fr;
+	grid-template-rows: 5fr 3fr;
 	text-align: center;
 	padding: 0px;
 	margin: 20px 0px 0px 0px;
 	font-family: 'Architects Daughter', cursive;
 	font-size: 25px;
 	overflow: auto;
-	/* align-items: center; */
 }
 header {
 	grid-row: 1;

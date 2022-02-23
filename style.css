@@ -19,7 +19,6 @@
 	justify-self: center;
 	font-family: 'Architects Daughter', cursive;
 	color: black;
-	/* position: absolute; */
 	left: 40px;
 }
 .menuIcon {
@@ -231,7 +230,7 @@ img.linkedIn {
 	#footer {
 		width: 750px;
 		font-size: 25px;
-		
+
 	}
 }
 /*END TABLET & DESKTOP RESPONSE*/
