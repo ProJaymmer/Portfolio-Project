@@ -4,6 +4,7 @@
 	font-family: sans-serif;
 	font-size: 25px;
 	text-align: center;
+	height: 890px;
 }
 .topNav {
 	display: grid;
@@ -58,8 +59,8 @@
 	padding: 10px 0px 15px 0px;
 	text-decoration: underline;
 }
-main {
-	height: 750px;
+.projects {
+	height: 770px;
 	overflow: auto;
 }
 .projectItem {
@@ -101,6 +102,10 @@ main {
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		position: relative;
 		top: 15px;
+	}
+	.projects {
+		height: auto;
+		overflow: auto;
 	}
 }
 /*END TABLET & DESKTOP RESPONSE*/
