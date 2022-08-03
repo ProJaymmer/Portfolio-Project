@@ -121,7 +121,7 @@ p {
 	}
 	.main {
 		margin: 20px 0px 0px 0px;
-		height: fit-content;
+		height: 1180px;
 	}
 	header {
 		grid-row: 1;
